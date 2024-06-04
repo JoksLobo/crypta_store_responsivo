@@ -1,0 +1,83 @@
+body{
+    font-family:"Roboto", sans-serif;;
+}
+
+.navbar {
+    background-color: rgb(10, 9, 9);
+}
+
+.nav .nav-link.active {
+    background-color: red;
+    color: #000;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover{
+    color: red;
+}
+
+.navbar-toggler {
+    background-color: red;
+}
+
+.text-colored {
+    color: red;
+}
+
+.section-title,
+#lancamentos button {
+    font-size: 35px;
+    font-family: "Metal Mania", system-ui;
+}
+
+header img {
+    max-width: 80px;
+    margin-left: 10px;
+}
+
+#carousel {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#carousel img {
+    height: 500px;
+    object-fit: cover;
+}
+
+#lancamentos h2,
+#produtos h2 {
+    border-bottom: 1px solid red;
+    margin-bottom: 3px;
+}
+
+#lancamentos button,
+#produtos button {
+    height: 50px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:767px) {
+    header img {
+        display: none;
+    }
+
+    #carousel {
+        width: 80%;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    #carousel img{
+        width: 100%;
+        max-width: 600px;
+        height: 500px;
+        object-fit: cover;
+    }
+}

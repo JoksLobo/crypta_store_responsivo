@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Crypta Record Store</h1>
+            <img src="./imagens/logo.jpg"alt="">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-loja" class="nav-link active">
+                            <i class="bi bi-boombox"></i>
+                            Sobre a loja
+                        </a>
+                        <li class="nav-item fw-bold">
+                            <a href="#lancamentos" class="nav-link">
+                                <i class="bi bi-basket2-fill"></i>
+                                Lançamentos
+                            </a>
+                        </li>
+                        <li class="nav-item fw-bold">
+                            <a href="#produtos" class="nav-link">
+                                <i class="bi bi-basket2-fill"></i>
+                                Produtos
+                            </a>
+                        </li>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-loja">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-inertval="1000">
+                        <img src="./imagens/guitar-3943201_1280.jpg" alt="">
+                    </div>
+                    <div class="carousel-item " data-bs-inertval="1000">
+                        <img src="./imagens/musician-1658887_1280.jpg" alt="">
+                    </div>
+                    <div class="carousel-item " data-bs-inertval="1000">
+                        <img src="./imagens/singer-5989931_1280.jpg" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./imagens/OIG2.Nmfp.jpg" class="d-block w-100 rounded" alt="">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">a loja</span></h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ad hic perferendis expedita quae? Iusto maxime ratione, quia error consequatur cum dolorum molestiae dicta quae. Veritatis asperiores voluptates sapiente impedit. lorem</p>
+                            <h3 class="section-title">Nossa relação com <span class="text-colored">a música</span></h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi ex delectus rerum tempora nam eos repellendus quidem doloremque dolor, quam neque quia. Expedita assumenda unde excepturi quos accusantium facilis dolorem.</p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="lancamentos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    
+                    <h2 class="section-title text-center text-colored">
+                        <i class="bi bi-fire"></i>
+                        Lançamentos</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4 mb-3">
+                        <img src="./imagens/disco1.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4 text-center">
+                            <i class="bi bi-fire"></i>
+                            Mjolnir - Elder Gods</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita debitis dolores eaque, corrupti adipisci molestiae quam velit omnis aut aperiam maiores ea, sunt at? Facilis maxime aut doloremque ullam harum?</p>
+                            <button type="submit">Carrinho +</button>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <img src="./imagens/disco2.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4 text-center">
+                            <i class="bi bi-fire"></i>
+                            Maniac - Forever Free</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita debitis dolores eaque, corrupti adipisci molestiae quam velit omnis aut aperiam maiores ea, sunt at? Facilis maxime aut doloremque ullam harum?</p>
+                            <button type="submit">Carrinho +</button>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <img src="./imagens/disco3.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4 text-center">
+                            <i class="bi bi-fire"></i>
+                            Everyday Madmen</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita debitis dolores eaque, corrupti adipisci molestiae quam velit omnis aut aperiam maiores ea, sunt at? Facilis maxime aut doloremque ullam harum?</p>
+                            <button type="submit">Carrinho +</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="produtos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    
+                    <h2 class="section-title text-center text-colored">
+                        <i class="bi bi-star"></i>
+                        Produtos</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4 mb-3">
+                        <img src="./imagens/disco1.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4 text-center">
+                            <i class="bi bi-star"></i>
+                            Mjolnir - Elder Gods</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita debitis dolores eaque, corrupti adipisci molestiae quam velit omnis aut aperiam maiores ea, sunt at? Facilis maxime aut doloremque ullam harum?</p>
+                            <button type="submit">Carrinho +</button>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <img src="./imagens/disco2.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4 text-center">
+                            <i class="bi bi-star"></i>
+                            Maniac - Forever Free</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita debitis dolores eaque, corrupti adipisci molestiae quam velit omnis aut aperiam maiores ea, sunt at? Facilis maxime aut doloremque ullam harum?</p>
+                            <button type="submit">Carrinho +</button>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <img src="./imagens/disco3.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4 text-center">
+                            <i class="bi bi-star"></i>
+                            Everyday Madmen</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita debitis dolores eaque, corrupti adipisci molestiae quam velit omnis aut aperiam maiores ea, sunt at? Facilis maxime aut doloremque ullam harum?</p>
+                            <button type="submit">Carrinho +</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
