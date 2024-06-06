@@ -2,7 +2,7 @@ body{
     font-family:"Roboto", sans-serif;;
 }
 
-.navbar {
+.navbar, footer{
     background-color: rgb(10, 9, 9);
 }
 
@@ -13,7 +13,8 @@ body{
 
 .nav .nav-link,
 .navbar-brand,
-.navbar-brand:hover{
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover{
     color: red;
 }
 
@@ -26,7 +27,9 @@ body{
 }
 
 .section-title,
-#lancamentos button {
+#lancamentos button,
+#produtos button,
+#fale-conosco button {
     font-size: 35px;
     font-family: "Metal Mania", system-ui;
 }
@@ -48,19 +51,30 @@ header img {
 }
 
 #lancamentos h2,
-#produtos h2 {
+#produtos h2,
+#menu h2, #fale-conosco h2 {
     border-bottom: 1px solid red;
     margin-bottom: 3px;
 }
 
 #lancamentos button,
-#produtos button {
+#produtos button,
+#fale-conosco button {
     height: 50px;
     background-color: red;
     color: white;
     font-size: 20px;
     font-weight: bold;
     border-radius: 10px;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
 }
 
 @media screen and (max-width:767px) {
